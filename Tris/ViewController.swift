@@ -17,8 +17,6 @@ class ViewController: UIViewController {
     
     var gameIsActive = true
     
-    
-    
     @IBOutlet weak var labelWinner: UILabel!
     @IBOutlet weak var buttonReplay: UIButton!
     @IBOutlet weak var titleLabel: UILabel!
@@ -37,6 +35,8 @@ class ViewController: UIViewController {
                 gameState[sender.tag-1] = 2
             }
         }
+    
+        var check = true
         
         for combination in winningCombination
         {
@@ -55,15 +55,33 @@ class ViewController: UIViewController {
                     labelWinner.text = "Vince CUORE!"
                 }
                 
+                check = false
                 labelWinner.isHidden = false
                 buttonReplay.isHidden = false
             }
         }
         
-        
+        if check
+        {
+            gameIsActive = false
+            for i in gameState
+            {
+                if i == 0
+                {
+                    gameIsActive = true
+                    break
+                }
+            }
+            
+            if gameIsActive == false
+            {
+                labelWinner.text = "Finisce PARI!"
+                labelWinner.isHidden = false
+                buttonReplay.isHidden = false
+            }
+        }
     }
     
-   
     @IBAction func clickOnButtonReplay(_ sender: AnyObject) {
         gameIsActive = true
         labelWinner.isHidden = true
@@ -77,8 +95,7 @@ class ViewController: UIViewController {
             button.setImage(nil, for: UIControlState())
         }
     }
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
     }
