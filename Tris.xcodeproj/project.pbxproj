@@ -12,6 +12,9 @@
 		14E82E7D20456767004AA3F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E82E7B20456767004AA3F8 /* Main.storyboard */; };
 		14E82E7F20456767004AA3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14E82E7E20456767004AA3F8 /* Assets.xcassets */; };
 		14E82E8220456767004AA3F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14E82E8020456767004AA3F8 /* LaunchScreen.storyboard */; };
+		14E82E8C20456D9E004AA3F8 /* schema.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E82E8B20456D9E004AA3F8 /* schema.png */; };
+		14E82E8F20456F8B004AA3F8 /* cervello.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E82E8D20456F8B004AA3F8 /* cervello.png */; };
+		14E82E9020456F8B004AA3F8 /* cuore.png in Resources */ = {isa = PBXBuildFile; fileRef = 14E82E8E20456F8B004AA3F8 /* cuore.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		14E82E7E20456767004AA3F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14E82E8120456767004AA3F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14E82E8320456767004AA3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14E82E8B20456D9E004AA3F8 /* schema.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schema.png; sourceTree = "<group>"; };
+		14E82E8D20456F8B004AA3F8 /* cervello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cervello.png; sourceTree = "<group>"; };
+		14E82E8E20456F8B004AA3F8 /* cuore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuore.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				14E82E7E20456767004AA3F8 /* Assets.xcassets */,
 				14E82E8020456767004AA3F8 /* LaunchScreen.storyboard */,
 				14E82E8320456767004AA3F8 /* Info.plist */,
+				14E82E8B20456D9E004AA3F8 /* schema.png */,
+				14E82E8D20456F8B004AA3F8 /* cervello.png */,
+				14E82E8E20456F8B004AA3F8 /* cuore.png */,
 			);
 			path = Tris;
 			sourceTree = "<group>";
@@ -123,8 +132,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E82E9020456F8B004AA3F8 /* cuore.png in Resources */,
 				14E82E8220456767004AA3F8 /* LaunchScreen.storyboard in Resources */,
 				14E82E7F20456767004AA3F8 /* Assets.xcassets in Resources */,
+				14E82E8F20456F8B004AA3F8 /* cervello.png in Resources */,
+				14E82E8C20456D9E004AA3F8 /* schema.png in Resources */,
 				14E82E7D20456767004AA3F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
